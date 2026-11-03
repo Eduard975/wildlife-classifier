@@ -1,0 +1,67 @@
+
+== wild boar: 396766 images
+  SWG Camera Traps                              img= 237353 seq= 25253 loc= 687 {'sequence': 237353}
+  NACTI                                         img= 139439 seq=     1 loc= 111 {'unknown': 139439}
+  Trail Camera Images of New Zealand Animals    img=   9782 seq=     1 loc= 149 {'image': 9782}
+  Felidae Conservation Fund 2020-2025           img=   4444 seq=     1 loc=  31 {'image': 4444}
+  Island Conservation Camera Traps              img=   2288 seq=     1 loc=  28 {'image': 2288}
+  Missouri Camera Traps                         img=   1864 seq=   100 loc=   1 {'sequence': 1808, 'image': 56}
+  WCS Camera Traps                              img=   1398 seq=   837 loc= 295 {'sequence': 1398}
+
+== coyote: 102584 images
+  WSU Lynx                                      img=  25332 seq=  6023 loc= 501 {'sequence': 25332}
+  Felidae Conservation Fund 2020-2025           img=  21629 seq=     1 loc= 152 {'image': 21629}
+  NACTI                                         img=  20968 seq=     1 loc= 451 {'unknown': 20968}
+  Caltech Camera Traps                          img=  16350 seq= 11121 loc=  95 {'image': 16350}
+  AMMonitor Camera Traps                        img=  13412 seq=  3720 loc= 444 {'sequence': 13412}
+  Idaho Camera Traps                            img=   2648 seq=   472 loc= 128 {'sequence': 2648}
+  Seattle(ish) Camera Traps                     img=   1566 seq=   452 loc=   6 {'image': 1566}
+  ENA24                                         img=    334 seq=     1 loc=   1 {'image': 334}
+  California Small Animals                      img=    230 seq=    22 loc=   1 {'unknown': 230}
+
+== bear: 92724 images
+  AMMonitor Camera Traps                        img=  46180 seq=  4776 loc= 439 {'sequence': 46180}
+  NACTI                                         img=  28770 seq=     1 loc= 277 {'unknown': 28770}
+  WSU Lynx                                      img=   8281 seq=  1908 loc= 481 {'sequence': 8281}
+  Idaho Camera Traps                            img=   3180 seq=   566 loc= 106 {'sequence': 3180}
+  Oregon Critters                               img=   2573 seq=     1 loc= 250 {'image': 2573}
+  SWG Camera Traps                              img=   1624 seq=   129 loc=  87 {'sequence': 1624}
+  WCS Camera Traps                              img=   1118 seq=   451 loc= 205 {'sequence': 1118}
+  ENA24                                         img=    893 seq=     1 loc=   1 {'image': 893}
+
+== lynx/bobcat: 77799 images
+  Felidae Conservation Fund 2020-2025           img=  31278 seq=     1 loc= 179 {'image': 31278}
+  NACTI                                         img=  25434 seq=     1 loc= 139 {'unknown': 25434}
+  Caltech Camera Traps                          img=   7984 seq=  3765 loc=  81 {'image': 7984}
+  WSU Lynx                                      img=   6184 seq=  1474 loc= 397 {'sequence': 6184}
+  AMMonitor Camera Traps                        img=   4082 seq=  1200 loc= 282 {'sequence': 4082}
+  Idaho Camera Traps                            img=   1235 seq=   256 loc=  90 {'sequence': 1235}
+  Oregon Critters                               img=   1234 seq=     1 loc= 173 {'image': 1234}
+  ENA24                                         img=    328 seq=     1 loc=   1 {'image': 328}
+
+== big cat: 43715 images
+  Snapshot Serengeti                            img=  22816 seq=  8656 loc= 213 {'sequence': 22816}
+  WCS Camera Traps                              img=  10655 seq=  1254 loc= 569 {'sequence': 10655}
+  Snapshot Safari 2024 Expansion                img=   7587 seq=  4133 loc= 617 {'sequence': 7587}
+  Desert Lion Conservation Camera Traps         img=   2140 seq=     1 loc=   1 {'image': 2140}
+  Biome Health Project Maasai Mara 2018         img=    263 seq=     1 loc=  34 {'unknown': 263}
+
+== hyena: 36985 images
+  Snapshot Serengeti                            img=  21998 seq= 11723 loc= 224 {'sequence': 21998}
+  Snapshot Safari 2024 Expansion                img=   9602 seq=  7388 loc= 624 {'sequence': 9602}
+  WCS Camera Traps                              img=   2626 seq=   799 loc= 279 {'sequence': 2626}
+  Desert Lion Conservation Camera Traps         img=   1121 seq=     1 loc=   1 {'image': 1121}
+  Biome Health Project Maasai Mara 2018         img=   1046 seq=     1 loc= 138 {'unknown': 1046}
+  Snapshot Enonkishu                            img=    373 seq=   293 loc=  11 {'sequence': 373}
+
+== puma: 33790 images
+  NACTI                                         img=  14756 seq=     1 loc=  95 {'unknown': 14756}
+  WCS Camera Traps                              img=   6823 seq=   363 loc= 243 {'sequence': 6823}
+  Felidae Conservation Fund 2020-2025           img=   6705 seq=     1 loc= 125 {'image': 6705}
+  WSU Lynx                                      img=   3244 seq=   787 loc= 319 {'sequence': 3244}
+  Idaho Camera Traps                            img=   1797 seq=   287 loc= 115 {'sequence': 1797}
+  Oregon Critters                               img=    320 seq=     1 loc=  51 {'image': 320}
+
+== wolf: 5537 images
+  Idaho Camera Traps                            img=   4697 seq=   640 loc= 104 {'sequence': 4697}
+  WSU Lynx                                      img=    840 seq=   216 loc=  97 {'sequence': 840}

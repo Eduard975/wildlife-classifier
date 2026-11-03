@@ -1,0 +1,601 @@
+label,idx,crop_id,location_id,sheet,verified
+wolf,0,37ad0064781950b2,Idaho Camera Traps : 109,0,y
+wolf,1,63ac30540150e1c3,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,0,y
+wolf,2,b3dd8254cf28f10b,WSU Lynx : Lynx2016_2017_RawCameraData/Cell58Camera2K,0,y
+wolf,3,f9dd9105abbbf23c,WSU Lynx : Lynx2016_2017_RawCameraData/Cell238Camera2,0,y
+wolf,4,fdc6c542acc3eae6,Idaho Camera Traps : 197,0,y
+wolf,5,c9582332dd0b5666,WSU Lynx : Lynx2016_2017_RawCameraData/Cell31Camera4K,0,y
+wolf,6,c23b3831e515e00d,WSU Lynx : Lynx2016_2017_RawCameraData/Cell43Camera1,0,y
+wolf,7,d7e68029343a2ec9,WSU Lynx : Lynx2016_2017_RawCameraData/Cell39Camera4K,0,y
+wolf,8,748f100a4628595f,Idaho Camera Traps : 143,0,y
+wolf,9,f43098002e77f374,WSU Lynx : Lynx2016_2017_RawCameraData/Cell16Camera2K,0,y
+wolf,10,2cb16fe513b67b73,Idaho Camera Traps : 182,0,y
+wolf,11,b4e5444ee6c5adb4,Idaho Camera Traps : 251,0,y
+wolf,12,b4f46f165e941c9f,Idaho Camera Traps : 151,0,y
+wolf,13,9b50d7f607f4be53,Idaho Camera Traps : 104,0,y
+wolf,14,61352bc613d2c514,Idaho Camera Traps : 244,0,y
+wolf,15,605bf9a0185b26dd,Idaho Camera Traps : 162,0,y
+wolf,16,471d26607e927834,Idaho Camera Traps : 83,0,y
+wolf,17,ca2786139eada24d,WSU Lynx : Lynx2016_2017_RawCameraData/Cell104Camera3,0,n
+wolf,18,13c2b3924c6856da,WSU Lynx : Lynx2016_2017_RawCameraData/Cell268Camera6,0,y
+wolf,19,6f4441acd09d68fa,Idaho Camera Traps : 188,0,y
+wolf,20,8b1682b9353a5114,WSU Lynx : Lynx2016_2017_RawCameraData/Cell10Camera4K,0,y
+wolf,21,86169b700a2ada7c,Idaho Camera Traps : 138,0,y
+wolf,22,6e5eda8a2f249dc9,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera1,0,y
+wolf,23,76167271d92690fa,Idaho Camera Traps : 218,0,y
+wolf,24,28ee4228382b3cec,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,0,y
+wolf,25,1a7dd93aa4da7840,Idaho Camera Traps : 111,0,y
+wolf,26,403ee04c12446119,Idaho Camera Traps : 141,0,y
+wolf,27,78a454ba78bd8676,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,0,y
+wolf,28,a02d39e4f658accf,Idaho Camera Traps : 122,0,y
+wolf,29,074d348832fee825,Idaho Camera Traps : 207,0,y
+wolf,30,d76be15a1c29880e,Idaho Camera Traps : 95,0,y
+wolf,31,5c28a911cb3ae0dd,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,0,y
+wolf,32,bec2393d52b53985,Idaho Camera Traps : 215,0,y
+wolf,33,95f6711c0c6619ec,WSU Lynx : Lynx2016_2017_RawCameraData/Cell186Camera3,0,y
+wolf,34,de53259967b5dbd7,Idaho Camera Traps : 167,0,y
+wolf,35,ba4f172fc03f6baa,Idaho Camera Traps : 85,0,y
+wolf,36,489e27031587ecba,Idaho Camera Traps : 185,1,y
+wolf,37,3b730627bae51e4b,Idaho Camera Traps : 122,1,y
+wolf,38,2a1881df48bf708e,Idaho Camera Traps : 167,1,y
+wolf,39,5a73c75479aa99c7,WSU Lynx : Lynx2016_2017_RawCameraData/Cell10Camera4K,1,y
+wolf,40,ee2812b16c580bb4,WSU Lynx : Lynx2016_2017_RawCameraData/Cell58Camera2K,1,y
+wolf,41,21929d18435ed611,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera1,1,y
+wolf,42,5f2d7b069bbf2d6a,WSU Lynx : Lynx2016_2017_RawCameraData/Cell39Camera4K,1,y
+wolf,43,0bafe068b5b3cebe,WSU Lynx : Lynx2016_2017_RawCameraData/Cell238Camera2,1,y
+wolf,44,0e14a34f78143061,WSU Lynx : Lynx2016_2017_RawCameraData/Cell104Camera3,1,y
+wolf,45,dbd327a028d765dc,Idaho Camera Traps : 207,1,y
+wolf,46,4fd88ea543e39fef,Idaho Camera Traps : 151,1,y
+wolf,47,55ef1ef1d437addb,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,1,y
+wolf,48,7c15e9600d47a2d2,Idaho Camera Traps : 244,1,y
+wolf,49,268856188d1c632f,Idaho Camera Traps : 143,1,y
+wolf,50,d632509326f21376,Idaho Camera Traps : 188,1,y
+wolf,51,346812a0464d810b,Idaho Camera Traps : 251,1,y
+wolf,52,adec4e4ba2132cd3,WSU Lynx : Lynx2016_2017_RawCameraData/Cell16Camera2K,1,y
+wolf,53,6019c2212835be0d,Idaho Camera Traps : 182,1,y
+wolf,54,8468b894babf296f,Idaho Camera Traps : 218,1,y
+wolf,55,38c79d03dba815af,Idaho Camera Traps : 104,1,y
+wolf,56,0bbddf7559287def,Idaho Camera Traps : 83,1,y
+wolf,57,4430a1326c6aa91c,WSU Lynx : Lynx2016_2017_RawCameraData/Cell43Camera1,1,y
+wolf,58,319b85a157fdd534,Idaho Camera Traps : 197,1,y
+wolf,59,af62d73310d35aba,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,1,y
+wolf,60,7d4191f9c0cd01d6,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,1,y
+wolf,61,325162ca0516d04a,WSU Lynx : Lynx2016_2017_RawCameraData/Cell268Camera6,1,y
+wolf,62,a7dfb5dec238a461,Idaho Camera Traps : 215,1,y
+wolf,63,78a7d6bb53baa470,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,1,y
+wolf,64,211bc2e76016036e,Idaho Camera Traps : 138,1,y
+wolf,65,917256424eac2fab,Idaho Camera Traps : 185,1,y
+wolf,66,c333645167756dd4,Idaho Camera Traps : 141,1,y
+wolf,67,fb7c7ac7ffae4348,Idaho Camera Traps : 109,1,y
+wolf,68,61b96d6181e37aae,Idaho Camera Traps : 95,1,y
+wolf,69,cf8e8794711e458d,WSU Lynx : Lynx2016_2017_RawCameraData/Cell186Camera3,1,y
+wolf,70,c7b6874f334f12e6,Idaho Camera Traps : 111,1,y
+wolf,71,05ba09ac594f9e43,Idaho Camera Traps : 85,1,y
+wolf,72,fe3aa5c518a65789,WSU Lynx : Lynx2016_2017_RawCameraData/Cell238Camera2,2,y
+wolf,73,61d25ec395fc4025,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,2,y
+wolf,74,ec8a2e689a344444,Idaho Camera Traps : 95,2,y
+wolf,75,afe1ca58dfb5d5cb,Idaho Camera Traps : 151,2,y
+wolf,76,db8ac32affd9e3ec,Idaho Camera Traps : 182,2,y
+wolf,77,3c45788891aacdbe,Idaho Camera Traps : 104,2,y
+wolf,78,d3945224819bbac7,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,2,y
+wolf,79,e373a07edcecab44,Idaho Camera Traps : 188,2,y
+wolf,80,ff060e511e92a7ed,Idaho Camera Traps : 141,2,y
+wolf,81,7331fe26db0b2f1f,Idaho Camera Traps : 109,2,y
+wolf,82,624ef638f8633eb2,Idaho Camera Traps : 167,2,n
+wolf,83,06c54a70993cc20f,Idaho Camera Traps : 83,2,y
+wolf,84,3ce1dc99a9aabe7f,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,2,y
+wolf,85,fe1e0aa5d4a86b67,Idaho Camera Traps : 215,2,y
+wolf,86,0911dcbdbe25aa79,Idaho Camera Traps : 244,2,y
+wolf,87,934aa02330dbf7b4,Idaho Camera Traps : 207,2,y
+wolf,88,1452f308bf641351,WSU Lynx : Lynx2016_2017_RawCameraData/Cell43Camera1,2,y
+wolf,89,956d1f525b6b792b,Idaho Camera Traps : 218,2,y
+wolf,90,5bb26efcbfe9067a,Idaho Camera Traps : 122,2,y
+wolf,91,e5868de4dcc9dc90,WSU Lynx : Lynx2016_2017_RawCameraData/Cell16Camera2K,2,y
+wolf,92,76081cdb18fffa16,Idaho Camera Traps : 197,2,y
+wolf,93,b0e6d49cc6209169,Idaho Camera Traps : 143,2,y
+wolf,94,16a6279e7242be62,Idaho Camera Traps : 185,2,y
+wolf,95,8e06643038da55a6,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera1,2,y
+wolf,96,315e7c44e86c8b0e,Idaho Camera Traps : 85,2,y
+wolf,97,41d344c234294543,WSU Lynx : Lynx2016_2017_RawCameraData/Cell186Camera3,2,y
+wolf,98,9381ec511949aabc,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,2,y
+wolf,99,f3aa204ef2b30a26,WSU Lynx : Lynx2016_2017_RawCameraData/Cell39Camera4K,2,y
+wolf,100,26a05d43777de94e,Idaho Camera Traps : 111,2,y
+wolf,101,5a702f109d87fcf8,Idaho Camera Traps : 138,2,y
+wolf,102,dc255598674dadf2,WSU Lynx : Lynx2016_2017_RawCameraData/Cell268Camera6,2,y
+wolf,103,d5f8c5380f7c7f47,Idaho Camera Traps : 218,2,y
+wolf,104,8ce3057336cd8243,Idaho Camera Traps : 207,2,y
+wolf,105,3f67b99293a5201c,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera1,2,y
+wolf,106,d2a02b6588672621,WSU Lynx : Lynx2016_2017_RawCameraData/Cell16Camera2K,2,y
+wolf,107,97aaf9c0963f810e,WSU Lynx : Lynx2016_2017_RawCameraData/Cell43Camera1,2,y
+wolf,108,ae84cb3f34052375,WSU Lynx : Lynx2016_2017_RawCameraData/Cell186Camera3,3,y
+wolf,109,ef89349eacba12ca,WSU Lynx : Lynx2016_2017_RawCameraData/Cell268Camera6,3,y
+wolf,110,94a7466e4fce12fc,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,3,y
+wolf,111,f1a7efdf190f1876,Idaho Camera Traps : 95,3,y
+wolf,112,257c642c419539ad,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,3,y
+wolf,113,24d1a45d6c483de8,Idaho Camera Traps : 188,3,y
+wolf,114,8b46b427b37aa5f1,Idaho Camera Traps : 143,3,y
+wolf,115,a4b3a2bdcdf3a0d1,Idaho Camera Traps : 83,3,y
+wolf,116,31327aabe2edd3d0,Idaho Camera Traps : 151,3,y
+wolf,117,0894e6f9ef515adb,WSU Lynx : Lynx2016_2017_RawCameraData/Cell39Camera4K,3,y
+wolf,118,ad09974abbcc407d,Idaho Camera Traps : 182,3,y
+wolf,119,b835dddfe41cbf0a,Idaho Camera Traps : 104,3,y
+wolf,120,2056195215c35737,Idaho Camera Traps : 244,3,y
+wolf,121,053fd528fc25456a,Idaho Camera Traps : 109,3,y
+wolf,122,4f61adf0e1a24961,Idaho Camera Traps : 215,3,y
+wolf,123,602eb7adafc4fe11,Idaho Camera Traps : 167,3,y
+wolf,124,601c4bd2ef83d229,Idaho Camera Traps : 85,3,y
+wolf,125,490a333dd16a5f35,Idaho Camera Traps : 111,3,y
+wolf,126,89684f0c7aa59dd0,Idaho Camera Traps : 141,3,y
+wolf,127,a618d594d8614efe,Idaho Camera Traps : 197,3,y
+wolf,128,d6691f359b81040b,Idaho Camera Traps : 122,3,y
+wolf,129,d54f4c1e2fe5275a,Idaho Camera Traps : 138,3,y
+wolf,130,b417f1f332c30cda,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,3,y
+wolf,131,266ef2ae5c7f6543,Idaho Camera Traps : 185,3,y
+wolf,132,c34b2f0eb1518b0f,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,3,y
+wolf,133,cef33f8870f0c234,Idaho Camera Traps : 151,3,y
+wolf,134,2aa0e76ef5e45e2b,Idaho Camera Traps : 83,3,y
+wolf,135,4b4cc85666aa8b6d,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,3,y
+wolf,136,b5dcb44fc191e5f0,Idaho Camera Traps : 218,3,y
+wolf,137,e8e8e676c04941e3,Idaho Camera Traps : 95,3,n
+wolf,138,7c016e10cceec588,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,3,y
+wolf,139,e09bb95b57fa8021,Idaho Camera Traps : 207,3,y
+wolf,140,f7a677cb1c51d8d3,Idaho Camera Traps : 104,3,y
+wolf,141,88393f6c91d8aec8,Idaho Camera Traps : 167,3,y
+wolf,142,5d217e87391c66d3,Idaho Camera Traps : 109,3,y
+wolf,143,d3bb85886688f642,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,3,y
+wolf,144,8be35fcabbf78b96,Idaho Camera Traps : 197,4,y
+wolf,145,625651424f487e67,Idaho Camera Traps : 85,4,y
+wolf,146,e4c0c726547e4e10,Idaho Camera Traps : 143,4,y
+wolf,147,5e598f32445b2e71,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,4,y
+wolf,148,3caeb79e143b7487,Idaho Camera Traps : 122,4,y
+wolf,149,1a82c96a8a85d268,Idaho Camera Traps : 215,4,y
+wolf,150,345bba31d756f549,Idaho Camera Traps : 111,4,y
+wolf,151,9aa4d54fa4f624a2,Idaho Camera Traps : 138,4,y
+wolf,152,32ac9a889b902b85,Idaho Camera Traps : 244,4,y
+wolf,153,c35cd926facbb281,Idaho Camera Traps : 141,4,y
+wolf,154,1cf50d069be1d3e5,Idaho Camera Traps : 182,4,y
+wolf,155,43c0f7e08bcda42c,Idaho Camera Traps : 188,4,y
+wolf,156,a11b97e5a893e641,Idaho Camera Traps : 185,4,y
+wolf,157,2897a5b0af1e5f85,Idaho Camera Traps : 104,4,y
+wolf,158,d0a9739cb3030397,Idaho Camera Traps : 207,4,y
+wolf,159,512dd936a01f64cf,Idaho Camera Traps : 109,4,y
+wolf,160,f49ad35e0d975eab,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,4,y
+wolf,161,b6b02f624f707ca8,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,4,y
+wolf,162,1c89c13b6ec78ba7,Idaho Camera Traps : 151,4,y
+wolf,163,dab2d00620e9f786,Idaho Camera Traps : 143,4,y
+wolf,164,a399b78994366f74,Idaho Camera Traps : 111,4,y
+wolf,165,a3e9031431062111,Idaho Camera Traps : 83,4,y
+wolf,166,18594eb1dc62b5b4,Idaho Camera Traps : 218,4,y
+wolf,167,5f4e2db918cbf53e,Idaho Camera Traps : 182,4,y
+wolf,168,ccf8bf74cadb607f,Idaho Camera Traps : 185,4,y
+wolf,169,cdc20b2a74e4bcee,Idaho Camera Traps : 244,4,y
+wolf,170,7cdf57b1690d43ca,Idaho Camera Traps : 138,4,y
+wolf,171,3e11a21af798fe70,Idaho Camera Traps : 141,4,y
+wolf,172,c0dbfab2096a7c6f,Idaho Camera Traps : 188,4,y
+wolf,173,b30324cdebbaebb0,Idaho Camera Traps : 167,4,y
+wolf,174,48e029a6e3c4e585,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,4,y
+wolf,175,603d3f6b811b6c29,Idaho Camera Traps : 122,4,y
+wolf,176,2fb2e42e42941afb,Idaho Camera Traps : 215,4,y
+wolf,177,3b8cbee18b021a04,Idaho Camera Traps : 95,4,y
+wolf,178,f1c2f4054fde0aba,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,4,y
+wolf,179,e6bfe414ff60b99b,Idaho Camera Traps : 85,4,y
+wolf,180,b723700f1226b8dd,Idaho Camera Traps : 197,5,y
+wolf,181,dbb8c64c7688f55a,Idaho Camera Traps : 218,5,y
+wolf,182,f3977b73b8d0a162,Idaho Camera Traps : 197,5,y
+wolf,183,8656149859962ea6,Idaho Camera Traps : 111,5,y
+wolf,184,9d7d4b37b3e04c9f,Idaho Camera Traps : 188,5,y
+wolf,185,92559f3653e8fe15,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,5,y
+wolf,186,eba29febe71e4ba2,Idaho Camera Traps : 185,5,y
+wolf,187,b09ef01f5e30628e,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,5,y
+wolf,188,206f6f4087cbcf97,Idaho Camera Traps : 141,5,y
+wolf,189,fad65819d2665c50,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,5,y
+wolf,190,8ee074800a5d7f12,Idaho Camera Traps : 95,5,y
+wolf,191,1dc40f515c9b8282,Idaho Camera Traps : 85,5,y
+wolf,192,274ea57410a31f86,Idaho Camera Traps : 167,5,y
+wolf,193,cfa120d58ecbba07,Idaho Camera Traps : 207,5,y
+wolf,194,3dc86c6b285a055d,Idaho Camera Traps : 244,5,y
+wolf,195,356fbd10731b3cbd,Idaho Camera Traps : 143,5,y
+wolf,196,09b84d1b9b1b886e,Idaho Camera Traps : 215,5,y
+wolf,197,09526530a5bc1b59,Idaho Camera Traps : 138,5,y
+wolf,198,cb6ed673267d9488,Idaho Camera Traps : 122,5,y
+wolf,199,e224737ad80bf2ac,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,5,y
+wolf,200,a878534d70d5bb14,Idaho Camera Traps : 83,5,y
+wolf,201,710a4c082ec9408e,Idaho Camera Traps : 109,5,y
+wolf,202,3086abfc2f209c21,Idaho Camera Traps : 188,5,y
+wolf,203,1249d3dc548c7cc2,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,5,y
+wolf,204,3bddc934f4ecd5b5,Idaho Camera Traps : 138,5,y
+wolf,205,09362a63ac7f45d7,Idaho Camera Traps : 197,5,y
+wolf,206,46e3d559dffcebb5,Idaho Camera Traps : 83,5,y
+wolf,207,c70e8f87ed64f501,Idaho Camera Traps : 167,5,y
+wolf,208,6c3218eef8a1eb1d,Idaho Camera Traps : 109,5,y
+wolf,209,2ce8c9996aa3a1ce,Idaho Camera Traps : 207,5,y
+wolf,210,bab59eb40ebc3e14,Idaho Camera Traps : 215,5,y
+wolf,211,9c56975fa6c018ec,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,5,y
+wolf,212,255b032030632b75,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,5,y
+wolf,213,1fe3de09cf0eb5ae,Idaho Camera Traps : 244,5,y
+wolf,214,ebf7742a9dd16acb,Idaho Camera Traps : 85,5,y
+wolf,215,814aa3c24bc9645a,Idaho Camera Traps : 122,5,y
+wolf,216,bb0bc821d79140cc,Idaho Camera Traps : 141,6,y
+wolf,217,be49790366a84015,Idaho Camera Traps : 111,6,y
+wolf,218,f7669627e1fa4d71,Idaho Camera Traps : 95,6,y
+wolf,219,8a4b2eb50d046765,Idaho Camera Traps : 185,6,y
+wolf,220,5b50c1715d1025a8,Idaho Camera Traps : 218,6,y
+wolf,221,9661eeafb9d33c01,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,6,y
+wolf,222,684497fc801316b4,Idaho Camera Traps : 143,6,y
+wolf,223,13bf5c7ab16195ac,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,6,y
+wolf,224,dcdcd04a5024fd94,Idaho Camera Traps : 122,6,y
+wolf,225,29a00ef98d9a7877,Idaho Camera Traps : 83,6,y
+wolf,226,7d248b2c4528ec26,Idaho Camera Traps : 188,6,y
+wolf,227,280a732a2f60a95c,Idaho Camera Traps : 85,6,y
+wolf,228,036f4fbb58986d9b,Idaho Camera Traps : 141,6,y
+wolf,229,d31b52021b813936,Idaho Camera Traps : 197,6,?
+wolf,230,86f15655a586d772,Idaho Camera Traps : 207,6,y
+wolf,231,89fef129a9714104,Idaho Camera Traps : 111,6,y
+wolf,232,db1b6e92e0e785e7,Idaho Camera Traps : 138,6,y
+wolf,233,226c92162004985f,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,6,y
+wolf,234,de98495175c63a43,Idaho Camera Traps : 215,6,y
+wolf,235,32ab1a10b8290266,Idaho Camera Traps : 244,6,y
+wolf,236,f7299ebdec756aee,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,6,y
+wolf,237,b3327f9f57ea674a,Idaho Camera Traps : 95,6,n
+wolf,238,21fd23b3836b630d,Idaho Camera Traps : 185,6,y
+wolf,239,4588c1d157817041,Idaho Camera Traps : 167,6,y
+wolf,240,64cfae4b87ccd3d0,Idaho Camera Traps : 218,6,y
+wolf,241,062a0a744f26d437,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,6,y
+wolf,242,fec6677af8f01f19,Idaho Camera Traps : 109,6,y
+wolf,243,3c6ae8515a035d1b,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,6,y
+wolf,244,7eccebb905e66713,Idaho Camera Traps : 197,6,y
+wolf,245,72c2862b07633c79,Idaho Camera Traps : 109,6,y
+wolf,246,6b226d0c3d0a8890,Idaho Camera Traps : 244,6,y
+wolf,247,6f051e0fe0cc15e6,Idaho Camera Traps : 141,6,y
+wolf,248,9ae159718f18faff,Idaho Camera Traps : 188,6,y
+wolf,249,8486ba32e8507fe0,Idaho Camera Traps : 218,6,y
+wolf,250,60ea6e5d46b1b7c2,Idaho Camera Traps : 185,6,y
+wolf,251,7c3e8d08b6181d93,Idaho Camera Traps : 138,6,y
+wolf,252,7100db4fe92b42f0,Idaho Camera Traps : 95,7,y
+wolf,253,86b19038bda9b583,Idaho Camera Traps : 85,7,y
+wolf,254,f68b55dacacfcabf,Idaho Camera Traps : 111,7,y
+wolf,255,a9cd2c545b3d1436,Idaho Camera Traps : 207,7,y
+wolf,256,dcdf8c6a12b27f15,Idaho Camera Traps : 215,7,y
+wolf,257,770d92deb54d8a4b,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,7,y
+wolf,258,6a42fd4c4c6f8de0,Idaho Camera Traps : 122,7,n
+wolf,259,876fb89768e307e9,Idaho Camera Traps : 83,7,y
+wolf,260,08af0ede01a0c384,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,7,y
+wolf,261,67e655559af560be,Idaho Camera Traps : 167,7,y
+wolf,262,9e4523b022eba6d6,Idaho Camera Traps : 85,7,y
+wolf,263,7231f4f89d6c7d0e,Idaho Camera Traps : 95,7,n
+wolf,264,598f866ec9d32198,Idaho Camera Traps : 197,7,y
+wolf,265,b74527fdb0d17cec,Idaho Camera Traps : 218,7,y
+wolf,266,7a3825b6949bc4c5,Idaho Camera Traps : 207,7,y
+wolf,267,37e4a466926d084e,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,7,y
+wolf,268,4a418c72ffb616ce,Idaho Camera Traps : 141,7,y
+wolf,269,108734a98a359d4f,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,7,y
+wolf,270,40729a686ba3b8bc,Idaho Camera Traps : 188,7,y
+wolf,271,d1f9d3a8d7a41a20,Idaho Camera Traps : 167,7,y
+wolf,272,3f0bb44e7cca74d1,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,7,y
+wolf,273,7da3a2e702462afe,Idaho Camera Traps : 138,7,y
+wolf,274,6af8494659cda1fd,Idaho Camera Traps : 122,7,y
+wolf,275,92ad7619494cf59d,Idaho Camera Traps : 109,7,y
+wolf,276,26f732f11672c61a,Idaho Camera Traps : 244,7,y
+wolf,277,8b8c2e4df8eeadff,Idaho Camera Traps : 215,7,y
+wolf,278,9c355124cbd45667,Idaho Camera Traps : 185,7,y
+wolf,279,f7e4648c79385ea2,Idaho Camera Traps : 83,7,y
+wolf,280,a3201c35ac21b899,Idaho Camera Traps : 111,7,y
+wolf,281,d577aca038a0fcd6,Idaho Camera Traps : 83,7,y
+wolf,282,e7d33e55d4bab064,Idaho Camera Traps : 185,7,y
+wolf,283,397baa02045f67b4,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,7,y
+wolf,284,e3bebc4b444f979c,Idaho Camera Traps : 207,7,y
+wolf,285,0b8af4aa13462911,WSU Lynx : Lynx2016_2017_RawCameraData/Cell234Camera3,7,y
+wolf,286,b4b98ec55393b411,Idaho Camera Traps : 141,7,y
+wolf,287,3f71332124122c59,Idaho Camera Traps : 109,7,y
+wolf,288,a3c7387c3d6dec95,Idaho Camera Traps : 167,8,y
+wolf,289,4b5219b73a288202,Idaho Camera Traps : 218,8,y
+wolf,290,32d7aeeb28a47102,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,8,y
+wolf,291,b82fe04064af72dc,Idaho Camera Traps : 244,8,y
+wolf,292,4881cf57680ae34a,Idaho Camera Traps : 85,8,y
+wolf,293,5d268c79342c303c,Idaho Camera Traps : 215,8,y
+wolf,294,fe3816bfe219dfcf,Idaho Camera Traps : 138,8,y
+wolf,295,864aeb6b24c1413d,Idaho Camera Traps : 188,8,y
+wolf,296,c393dce5c62fd703,Idaho Camera Traps : 95,8,y
+wolf,297,9aa432d0d0a991c4,Idaho Camera Traps : 122,8,y
+wolf,298,22d5ea5f3dec6dff,Idaho Camera Traps : 197,8,y
+wolf,299,73789046601ff70f,Idaho Camera Traps : 111,8,y
+bear,0,32a62879505515ec,WSU Lynx : Lynx2016_2017_RawCameraData/Cell136Camera2,0,y
+bear,1,bcc9b06634749378,NACTI : sanjuan_2016_Unit130_Ivan015,0,y
+bear,2,f19ad3c88271b1a8,NACTI : sanjuan_2010_Unit158_Ivan025,0,y
+bear,3,0ad541612bcddb18,NACTI : sanjuan_2014_Unit6_Ivan120,0,y
+bear,4,573e8b6e27299bce,AMMonitor Camera Traps : massachusetts-wildlife_MA0415,0,y
+bear,5,6d977364ae23cf7f,SWG Camera Traps : loc_0362,0,y
+bear,6,5f3a7db2ef607432,Idaho Camera Traps : 151,0,y
+bear,7,5d0aeb2f5b60b6ce,Oregon Critters : COA_11462-3-T,0,y
+bear,8,4952f451f0ca447c,Idaho Camera Traps : 122,0,y
+bear,9,5408977634d21ed2,Idaho Camera Traps : 188,0,y
+bear,10,0ac286c382a417b3,WSU Lynx : Lynx2016_2017_RawCameraData/Cell95Camera4,0,y
+bear,11,d550893b1df7ed0e,NACTI : sanjuan_2014_Unit31_Ivan141,0,y
+bear,12,02b716724331121d,Oregon Critters : COA_10504-3-T,0,y
+bear,13,6cdd279181037ee9,WSU Lynx : Lynx2016_2017_RawCameraData/Cell26Camera3,0,y
+bear,14,1ba366fb7776f5a2,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Mahoos 1,0,y
+bear,15,dd0dbf8093d57f65,Idaho Camera Traps : 182,0,y
+bear,16,08671e16961e2832,WSU Lynx : Lynx2016_2017_RawCameraData/Cell270Camera2,0,y
+bear,17,29dad5ee744aeada,NACTI : sanjuan_2010_Unit154_Ivan094,0,y
+bear,18,7f16788e3d51ce49,AMMonitor Camera Traps : maine-difw-moose-vol2_Stj1,0,y
+bear,19,035fdf9e58499180,WSU Lynx : Lynx2016_2017_RawCameraData/Cell215Camera3,0,y
+bear,20,e92479f50034e620,NACTI : lebec_CA-11,0,y
+bear,21,006243fcc81bdba1,SWG Camera Traps : loc_0761,0,y
+bear,22,013c60fc0251f424,Oregon Critters : COA_10077-1-T,0,y
+bear,23,b3636246abcf0c79,AMMonitor Camera Traps : maine-difw-moose-vol2_COFFEELOSN,0,y
+bear,24,4cfdbe4ed48ca79f,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Won 1,0,y
+bear,25,fdd507bfb1b37d08,NACTI : lebec_CA-32,0,y
+bear,26,006d081d135f7250,NACTI : sanjuan_2010_Unit182_Ivan091,0,y
+bear,27,a972e410331b1f40,WSU Lynx : Lynx2016_2017_RawCameraData/Cell47Camera2K,0,y
+bear,28,3c65cb55be10247e,WSU Lynx : Lynx2016_2017_RawCameraData/Cell60Camera3,0,y
+bear,29,428ea14a49fc6b78,Oregon Critters : COA_22379-1-T,0,y
+bear,30,2b129cc5f3e30c71,NACTI : lebec_CA-19,0,y
+bear,31,b4eb0457b43e0d2e,AMMonitor Camera Traps : nh-fish-game-vol1_Bun 1,0,y
+bear,32,8fcb675a34ed9ab9,WSU Lynx : Lynx2016_2017_RawCameraData/Cell272Camera3,0,y
+bear,33,8c24acad78c63461,NACTI : sanjuan_2010_Unit169_Ivan086,0,y
+bear,34,10e252233ba85325,Oregon Critters : COA_8397-1-T,0,y
+bear,35,ea2bac3b0b641375,AMMonitor Camera Traps : maine-difw-vol1_grand6_1,0,y
+bear,36,3dd8613099032586,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS17,1,y
+bear,37,c089bd0eb8da6002,NACTI : sanjuan_2010_Unit183_Ivan114,1,y
+bear,38,e8c1648fbb37ce1c,NACTI : sanjuan_2016_Unit028_SWTB016,1,y
+bear,39,3376dde54c67708e,AMMonitor Camera Traps : nh-fish-game-vol1_CLNA2A,1,y
+bear,40,34ce47dc840006b2,NACTI : sanjuan_2014_Unit102_Ivan010,1,y
+bear,41,cddb45ee60615b5f,Oregon Critters : COA_9216-2-G,1,y
+bear,42,7dea554173b9a1a4,AMMonitor Camera Traps : maine-difw-moose-vol2_Brandy1,1,y
+bear,43,9a0b5ae259acb8e8,AMMonitor Camera Traps : massachusetts-wildlife_MA0424,1,y
+bear,44,c0f9847654b93199,NACTI : sanjuan_2010_Unit169_Ivan087,1,y
+bear,45,87bb7f5389d2a22a,Oregon Critters : COA_7762-3-T,1,y
+bear,46,fb61aa94ec28c42a,NACTI : sanjuan_2014_Unit102_Ivan054,1,y
+bear,47,e26dd7c5807f3ec2,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS15,1,y
+bear,48,b95d71603193db77,NACTI : sanjuan_2016_Unit173_Ivan029,1,y
+bear,49,36d5f98ea2291eab,Oregon Critters : COA_21800-2-T,1,y
+bear,50,69253b8c724be62c,NACTI : sanjuan_2016_Unit037_Ivan057,1,y
+bear,51,0ac509129471e4df,Oregon Critters : COA_9216-3-T,1,y
+bear,52,d6067a3787ec15e7,NACTI : sanjuan_2016_Unit058_Ivan074,1,y
+bear,53,f91bed457214476f,NACTI : sanjuan_2016_Unit020_Ivan089,1,y
+bear,54,e572411dd6d8efd8,NACTI : sanjuan_2016_Unit173_Ivan031,1,y
+bear,55,9bccd16bfb84b2d6,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,1,y
+bear,56,9016e3e2c0db06be,WSU Lynx : Lynx2016_2017_RawCameraData/Cell23Camera2,1,y
+bear,57,21e9bd984f18c89f,NACTI : sanjuan_2016_Unit160_Ivan070,1,y
+bear,58,672491c841234044,AMMonitor Camera Traps : maine-difw-moose-vol2_Big Bog 2,1,y
+bear,59,c213db5a8722f833,WSU Lynx : Lynx2016_2017_RawCameraData/Cell227Camera2,1,y
+bear,60,9c37452eedfe3724,Idaho Camera Traps : 85,1,y
+bear,61,ad9249224f26f526,SWG Camera Traps : loc_0230,1,y
+bear,62,fb0cb0acc59d6d74,NACTI : sanjuan_2016_Unit022_Ivan150,1,y
+bear,63,0ffd55712bf436f7,WSU Lynx : Lynx2016_2017_RawCameraData/Cell470Camera4,1,y
+bear,64,1cc58e618840aec0,WSU Lynx : Lynx2016_2017_RawCameraData/Cell31Camera4K,1,y
+bear,65,3debd233e64a6a24,Oregon Critters : COA_21404-2-T,1,y
+bear,66,08b93f1f50aa1298,AMMonitor Camera Traps : nh-fish-game-vol1_Umb3,1,y
+bear,67,c2e6c50adf780a8d,Oregon Critters : COA_8799-1-T,1,y
+bear,68,8121bb36545eb749,WSU Lynx : Lynx2016_2017_RawCameraData/Cell673Camera2,1,y
+bear,69,87fbfbd21ce04a68,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS14,1,y
+bear,70,82b325151dc6911b,AMMonitor Camera Traps : maine-difw-moose-vol2_Troubled1,1,n
+bear,71,189ed6298255cb17,Oregon Critters : COA_9831-1-G,1,y
+bear,72,e5ce35cf6c7bd41d,WSU Lynx : Lynx2016_2017_RawCameraData/Cell180Camera1,2,y
+bear,73,9a784998e50d1a90,AMMonitor Camera Traps : massachusetts-wildlife_MA0430,2,y
+bear,74,9f0dd459716878a8,WSU Lynx : Lynx2016_2017_RawCameraData/Cell442Camera4,2,y
+bear,75,64f21cb5e60dc67b,NACTI : lebec_CA-18,2,y
+bear,76,49aa056501053d17,Oregon Critters : COA_21398-3-G,2,n
+bear,77,ceeb0025bd1dd868,WSU Lynx : Lynx2016_2017_RawCameraData/Cell59Camera4,2,y
+bear,78,5838c30e10f4b212,NACTI : lebec_CA-44,2,y
+bear,79,cb5ac13d1ca43e84,Idaho Camera Traps : 95,2,y
+bear,80,c0017005a8e8550e,NACTI : lebec_CA-08,2,y
+bear,81,08dc8da1f59102ad,NACTI : sanjuan_2010_Unit174_Ivan017,2,y
+bear,82,edd53bb5dd9df1d2,AMMonitor Camera Traps : silvio-conte-nfwr_NUL19B,2,y
+bear,83,4077d99a147f6c10,WSU Lynx : Lynx2016_2017_RawCameraData/Cell16Camera2K,2,y
+bear,84,91a9db6a6de9afb7,NACTI : lebec_CA-17,2,y
+bear,85,5a69c2e0b86fff73,NACTI : lebec_CA-47,2,y
+bear,86,a3ff2b076527f395,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,2,n
+bear,87,5fb23cbbe2a67979,SWG Camera Traps : loc_0315,2,y
+bear,88,a5a09a4b31e3ca30,AMMonitor Camera Traps : maine-difw-moose-vol2_Sage2,2,y
+bear,89,094e3349830ac7ad,AMMonitor Camera Traps : nh-fish-game-vol1_Dum 3,2,y
+bear,90,048738e0f5d17431,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Weet1a,2,y
+bear,91,6002bb752d58b7f7,NACTI : lebec_CA-34,2,y
+bear,92,1dd218709a38f199,AMMonitor Camera Traps : dartmouth-woodlands-vol1_Dart 9,2,y
+bear,93,99dda72d5aaab4a3,AMMonitor Camera Traps : massachusetts-wildlife_MA0425,2,n
+bear,94,1fbf75636f4fd953,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,2,y
+bear,95,1b0dc3f709ba3029,NACTI : sanjuan_2015_Unit104_Ivan100,2,y
+bear,96,796b529bbbfbd77c,NACTI : lebec_CA-41,2,y
+bear,97,02b20901b8053392,AMMonitor Camera Traps : massachusetts-wildlife_MA0446,2,y
+bear,98,9bf34328d02959bd,Idaho Camera Traps : 109,2,y
+bear,99,577d97bcf080862b,AMMonitor Camera Traps : silvio-conte-nfwr_Umb 2,2,y
+bear,100,2d38207b56240ae6,AMMonitor Camera Traps : nh-fish-game-vol1_Suc 1,2,y
+bear,101,8009abfc2ba68ea9,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Weet 1,2,y
+bear,102,8ed3ef5a657675b2,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS16,2,y
+bear,103,a1b3b0eba3bb4ed9,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Jeff 11,2,y
+bear,104,8499d5868470b34d,WSU Lynx : Lynx2016_2017_RawCameraData/Cell74Camera2K,2,y
+bear,105,77513841d98302e9,AMMonitor Camera Traps : nh-fish-game-vol1_CLTC 2,2,y
+bear,106,7d6a92f869a216d9,Oregon Critters : COA_10504-3-T,2,y
+bear,107,f039ba4fe74c30ae,AMMonitor Camera Traps : massachusetts-wildlife_MA0424,2,y
+bear,108,36d59a437c06b600,AMMonitor Camera Traps : silvio-conte-nfwr_Umb 2,3,y
+bear,109,f77c1c03f5a21023,NACTI : lebec_CA-18,3,y
+bear,110,427acbdca3c2d703,NACTI : lebec_CA-08,3,y
+bear,111,aebbe3a29996f758,WSU Lynx : Lynx2016_2017_RawCameraData/Cell673Camera2,3,y
+bear,112,842def0e184b00dd,WSU Lynx : Lynx2016_2017_RawCameraData/Cell272Camera3,3,y
+bear,113,b2fc818d769680cc,NACTI : lebec_CA-17,3,y
+bear,114,486e6a41ab17ef5b,WSU Lynx : Lynx2016_2017_RawCameraData/Cell31Camera4K,3,y
+bear,115,2bdc49176ffab0b8,WSU Lynx : Lynx2016_2017_RawCameraData/Cell136Camera2,3,y
+bear,116,e6a652a46af07d59,AMMonitor Camera Traps : maine-difw-moose-vol2_Troubled1,3,n
+bear,117,4b1662889f422ca1,NACTI : lebec_CA-47,3,y
+bear,118,84ed6a700dff077e,AMMonitor Camera Traps : maine-difw-moose-vol2_Big Bog 2,3,y
+bear,119,62721cb7bb95b0d4,AMMonitor Camera Traps : massachusetts-wildlife_MA0446,3,y
+bear,120,4d20509a76f8f78a,AMMonitor Camera Traps : dartmouth-woodlands-vol1_Dart 9,3,y
+bear,121,1a780f00b506d955,AMMonitor Camera Traps : maine-difw-moose-vol2_Stj1,3,y
+bear,122,5fdaa15e86732a00,WSU Lynx : Lynx2016_2017_RawCameraData/Cell95Camera4,3,y
+bear,123,0ce81fcf68e7f7b9,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS15,3,y
+bear,124,d14375b1179fa686,NACTI : lebec_CA-19,3,y
+bear,125,a2618fa6daabd9bd,Idaho Camera Traps : 188,3,y
+bear,126,7fca0080202dea51,AMMonitor Camera Traps : massachusetts-wildlife_MA0415,3,y
+bear,127,f9c3cdcc442fb58b,Idaho Camera Traps : 182,3,y
+bear,128,83b235c758782577,SWG Camera Traps : loc_0362,3,y
+bear,129,f62294c9011b7664,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Weet1a,3,y
+bear,130,e3c7273ac73a21ae,WSU Lynx : Lynx2016_2017_RawCameraData/Cell23Camera2,3,y
+bear,131,4627f2038d0c42d5,AMMonitor Camera Traps : maine-difw-moose-vol2_COFFEELOSN,3,y
+bear,132,350956ab60a0e5a2,WSU Lynx : Lynx2016_2017_RawCameraData/Cell227Camera2,3,y
+bear,133,e1544457f16ba771,AMMonitor Camera Traps : nh-fish-game-vol1_Umb3,3,y
+bear,134,67b7ae2bb83b0069,Idaho Camera Traps : 85,3,y
+bear,135,320c0cda835d8424,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,3,y
+bear,136,166febdc7a6d66c9,WSU Lynx : Lynx2016_2017_RawCameraData/Cell74Camera2K,3,y
+bear,137,4d7b301cc3772b7f,WSU Lynx : Lynx2016_2017_RawCameraData/Cell180Camera1,3,y
+bear,138,c4824049d6767daf,NACTI : sanjuan_2010_Unit182_Ivan091,3,y
+bear,139,d9f2aa8361b5671e,AMMonitor Camera Traps : silvio-conte-nfwr_NUL19B,3,y
+bear,140,7e7bde5cf1d73568,Idaho Camera Traps : 151,3,y
+bear,141,3a7c38663ef61ffe,NACTI : lebec_CA-32,3,y
+bear,142,59a35cb6aa787177,NACTI : sanjuan_2016_Unit173_Ivan031,3,y
+bear,143,befb35b2522dc1f4,NACTI : sanjuan_2010_Unit169_Ivan087,3,y
+bear,144,2ce3466bc6713a2a,AMMonitor Camera Traps : nh-fish-game-vol1_Bun 1,4,y
+bear,145,f1f86d45d056070f,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Jeff 11,4,y
+bear,146,a1881be04069b7a3,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS14,4,y
+bear,147,b4c27b1589d8bd88,AMMonitor Camera Traps : massachusetts-wildlife_MA0430,4,y
+bear,148,7abab59c30ed76a9,Oregon Critters : COA_8799-1-T,4,y
+bear,149,ff04fcd7598044ce,NACTI : sanjuan_2016_Unit130_Ivan015,4,y
+bear,150,bc160978b1efe79b,SWG Camera Traps : loc_0230,4,y
+bear,151,88a9bd5655b2a10f,WSU Lynx : Lynx2016_2017_RawCameraData/Cell270Camera2,4,y
+bear,152,2764e496c7cb369b,AMMonitor Camera Traps : nh-fish-game-vol1_Dum 3,4,y
+bear,153,2d9b10038fed3d10,NACTI : lebec_CA-44,4,y
+bear,154,b7a20b6b82aedac2,Idaho Camera Traps : 122,4,y
+bear,155,5d07cfec137c39ab,Oregon Critters : COA_11462-3-T,4,y
+bear,156,726fc7a71f1f4816,WSU Lynx : Lynx2016_2017_RawCameraData/Cell26Camera3,4,y
+bear,157,32e8e8f866466612,AMMonitor Camera Traps : maine-difw-vol1_grand6_1,4,y
+bear,158,e2614d8369eb14c5,NACTI : lebec_CA-41,4,y
+bear,159,13ab625e67479f9a,NACTI : sanjuan_2016_Unit160_Ivan070,4,y
+bear,160,5ae2c8f3e18c3d92,WSU Lynx : Lynx2016_2017_RawCameraData/Cell470Camera4,4,y
+bear,161,a1361ccdd201a17e,AMMonitor Camera Traps : nh-fish-game-vol1_Suc 1,4,y
+bear,162,8d4e02e66fc56007,WSU Lynx : Lynx2016_2017_RawCameraData/Cell215Camera3,4,y
+bear,163,c137c616ddc7c357,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS17,4,y
+bear,164,e39513268a203507,NACTI : sanjuan_2014_Unit102_Ivan010,4,y
+bear,165,da6adf05ea5b5922,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Mahoos 1,4,y
+bear,166,94a93b29330f1ef4,NACTI : sanjuan_2014_Unit6_Ivan120,4,y
+bear,167,322beb4ca8646237,NACTI : sanjuan_2010_Unit174_Ivan017,4,y
+bear,168,861d979ee16c5611,NACTI : sanjuan_2016_Unit058_Ivan074,4,y
+bear,169,5b9116eefb7c80c5,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Won 1,4,y
+bear,170,7da06b4946ce45c3,WSU Lynx : Lynx2016_2017_RawCameraData/Cell59Camera4,4,y
+bear,171,e75041403a17c016,WSU Lynx : Lynx2016_2017_RawCameraData/Cell47Camera2K,4,y
+bear,172,1d9e9cb2a452abea,WSU Lynx : Lynx2016_2017_RawCameraData/Cell16Camera2K,4,y
+bear,173,329c8de36981924d,NACTI : lebec_CA-11,4,y
+bear,174,4d24a520f9d9c0d1,NACTI : lebec_CA-34,4,y
+bear,175,fad4e6ef026f5ed6,WSU Lynx : Lynx2016_2017_RawCameraData/Cell442Camera4,4,y
+bear,176,30a04314f4e128e9,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS16,4,y
+bear,177,3de9361d352b6165,AMMonitor Camera Traps : massachusetts-wildlife_MA0425,4,n
+bear,178,259bd4d06efc6907,Oregon Critters : COA_9216-3-T,4,y
+bear,179,8cb11a0a4b07d192,AMMonitor Camera Traps : nh-fish-game-vol1_CLTC 2,4,y
+bear,180,4754ac6588a504f1,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,5,y
+bear,181,0f257cff06a55737,NACTI : sanjuan_2010_Unit154_Ivan094,5,y
+bear,182,3f442311d1689766,Idaho Camera Traps : 109,5,y
+bear,183,477f2daf4bab38d3,AMMonitor Camera Traps : maine-difw-moose-vol2_Sage2,5,y
+bear,184,6ad9cd85cd7bdbc9,NACTI : sanjuan_2015_Unit104_Ivan100,5,y
+bear,185,f5a17a4261467e1b,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,5,y
+bear,186,6b48c7b2306a9175,Oregon Critters : COA_9831-1-G,5,y
+bear,187,1a2c58c7b9ae72dc,SWG Camera Traps : loc_0761,5,y
+bear,188,0dd58369dc969658,NACTI : sanjuan_2010_Unit169_Ivan086,5,y
+bear,189,efb861dc03762ce9,SWG Camera Traps : loc_0315,5,y
+bear,190,383f8614ecec470d,Idaho Camera Traps : 95,5,y
+bear,191,b00b98d543081c3b,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Weet 1,5,y
+bear,192,275d096c00f7a500,NACTI : sanjuan_2010_Unit158_Ivan025,5,y
+bear,193,ab3e45adb139dce1,NACTI : sanjuan_2016_Unit022_Ivan150,5,y
+bear,194,4f64071127ba3fc0,AMMonitor Camera Traps : massachusetts-wildlife_MA0430,5,y
+bear,195,d2604f25e08f84df,NACTI : lebec_CA-18,5,y
+bear,196,f91d10f80efcbb6c,NACTI : sanjuan_2016_Unit058_Ivan074,5,y
+bear,197,2de0eeb76158c99e,AMMonitor Camera Traps : nh-fish-game-vol1_Bun 1,5,y
+bear,198,5a441238978cfb0e,Idaho Camera Traps : 109,5,y
+bear,199,b738e5cfeabed101,WSU Lynx : Lynx2016_2017_RawCameraData/Cell31Camera4K,5,y
+bear,200,f3730b759d6099a3,WSU Lynx : Lynx2016_2017_RawCameraData/Cell180Camera1,5,y
+bear,201,a80b4bdec1d6a12e,Idaho Camera Traps : 85,5,y
+bear,202,098a926f09f58114,NACTI : sanjuan_2010_Unit158_Ivan025,5,y
+bear,203,15a74bdbd46e67b2,NACTI : lebec_CA-41,5,y
+bear,204,d40ba893313989a5,Idaho Camera Traps : 122,5,y
+bear,205,4d53c407d2b7f01a,WSU Lynx : Lynx2016_2017_RawCameraData/Cell59Camera4,5,y
+bear,206,174c5f4ec3f0045e,WSU Lynx : Lynx2016_2017_RawCameraData/Cell47Camera2K,5,y
+bear,207,99ff032817315abd,AMMonitor Camera Traps : massachusetts-wildlife_MA0446,5,y
+bear,208,82c05e4a5536d7c0,AMMonitor Camera Traps : nh-fish-game-vol1_Suc 1,5,y
+bear,209,4ff3d9f4181e23d3,AMMonitor Camera Traps : silvio-conte-nfwr_NUL19B,5,y
+bear,210,7eb42f6122eb1174,WSU Lynx : Lynx2016_2017_RawCameraData/Cell74Camera2K,5,y
+bear,211,98bcab1b53193b57,NACTI : lebec_CA-34,5,y
+bear,212,09a6c139dd28ed19,Oregon Critters : COA_8799-1-T,5,y
+bear,213,22a28612b8da4619,NACTI : lebec_CA-19,5,y
+bear,214,e384c75a8656ab59,WSU Lynx : Lynx2016_2017_RawCameraData/Cell673Camera2,5,y
+bear,215,059aeab645a90c00,NACTI : sanjuan_2016_Unit173_Ivan031,5,y
+bear,216,b3661e8d210d2fc4,AMMonitor Camera Traps : nh-fish-game-vol1_Dum 3,6,y
+bear,217,1731b5cef163e11a,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Weet 1,6,y
+bear,218,11e2e6ed17c107a0,AMMonitor Camera Traps : massachusetts-wildlife_MA0415,6,y
+bear,219,bf04a7db7ba6fd9f,SWG Camera Traps : loc_0230,6,y
+bear,220,f673bfebe5ac68ae,NACTI : lebec_CA-44,6,y
+bear,221,07de44199faa1a90,Idaho Camera Traps : 182,6,y
+bear,222,1da5308f1aa82541,WSU Lynx : Lynx2016_2017_RawCameraData/Cell270Camera2,6,y
+bear,223,7275ab4a7142dd97,NACTI : lebec_CA-08,6,y
+bear,224,aa513fe71065de0d,NACTI : lebec_CA-47,6,y
+bear,225,d3cecc9c56df7d8b,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera3K,6,y
+bear,226,d2bd246452428914,WSU Lynx : Lynx2016_2017_RawCameraData/Cell221Camera4,6,y
+bear,227,178b6596633184d0,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS17,6,y
+bear,228,0b5ae2211b0aa6b8,AMMonitor Camera Traps : maine-difw-vol1_grand6_1,6,y
+bear,229,512fa2c8a12f9898,Idaho Camera Traps : 151,6,y
+bear,230,08d5cb087a0dc36b,AMMonitor Camera Traps : maine-difw-moose-vol2_Stj1,6,y
+bear,231,36532c95743f5621,AMMonitor Camera Traps : maine-difw-moose-vol2_Big Bog 2,6,y
+bear,232,04db50083c398c96,Oregon Critters : COA_10504-3-T,6,y
+bear,233,0cc0dfb522fd3b52,WSU Lynx : Lynx2016_2017_RawCameraData/Cell272Camera3,6,y
+bear,234,9f3af43bf6961ea1,NACTI : sanjuan_2014_Unit102_Ivan010,6,y
+bear,235,977b7a2ceed40bdc,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,6,y
+bear,236,3b77c51058eec56f,WSU Lynx : Lynx2016_2017_RawCameraData/Cell215Camera3,6,y
+bear,237,92e53e930fb2765b,Idaho Camera Traps : 95,6,y
+bear,238,e56421ec3784bea3,AMMonitor Camera Traps : maine-difw-moose-vol2_COFFEELOSN,6,y
+bear,239,ae8e719c6ad6976d,WSU Lynx : Lynx2016_2017_RawCameraData/Cell16Camera2K,6,y
+bear,240,80afdf30d304a614,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS14,6,y
+bear,241,b260d1a31c337f50,WSU Lynx : Lynx2016_2017_RawCameraData/Cell227Camera2,6,y
+bear,242,cda5f756856574d4,NACTI : lebec_CA-17,6,n
+bear,243,9024615e62c965f2,AMMonitor Camera Traps : massachusetts-wildlife_MA0425,6,n
+bear,244,f40cdfa9a6c7f193,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Mahoos 1,6,y
+bear,245,b6eb7316f6143986,WSU Lynx : Lynx2016_2017_RawCameraData/Cell136Camera2,6,y
+bear,246,1a4384263577c0cd,WSU Lynx : Lynx2016_2017_RawCameraData/Cell470Camera4,6,y
+bear,247,a3a30da033ac32aa,WSU Lynx : Lynx2016_2017_RawCameraData/Cell23Camera2,6,y
+bear,248,4195b2f5f2ce1c20,NACTI : lebec_CA-11,6,y
+bear,249,76f444850a70579e,WSU Lynx : Lynx2016_2017_RawCameraData/Cell442Camera4,6,y
+bear,250,318c488b3c24b184,SWG Camera Traps : loc_0315,6,y
+bear,251,b2a003f2d37f4f55,WSU Lynx : Lynx2016_2017_RawCameraData/Cell26Camera3,6,y
+bear,252,dd857b6a67f4ea8f,Oregon Critters : COA_11462-3-T,7,y
+bear,253,2cf6dbdf3fc5b5e3,NACTI : sanjuan_2010_Unit154_Ivan094,7,y
+bear,254,bb735796b95f7a88,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS16,7,y
+bear,255,7b978fdf05d8870f,SWG Camera Traps : loc_0761,7,y
+bear,256,891a831f0c13ad1e,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS15,7,y
+bear,257,42856e56e253ef28,NACTI : sanjuan_2016_Unit022_Ivan150,7,y
+bear,258,36414938c68ba5d7,Idaho Camera Traps : 188,7,y
+bear,259,148ec571471054c2,AMMonitor Camera Traps : nh-fish-game-vol1_Umb3,7,y
+bear,260,037c20ee55192b52,NACTI : sanjuan_2016_Unit130_Ivan015,7,?
+bear,261,7cbd527d247add66,SWG Camera Traps : loc_0362,7,y
+bear,262,4cb6f47892d96ab7,NACTI : sanjuan_2010_Unit169_Ivan087,7,y
+bear,263,90f416b34c4f1864,AMMonitor Camera Traps : dartmouth-woodlands-vol1_Dart 9,7,y
+bear,264,2fb063ca3ddcdc31,AMMonitor Camera Traps : silvio-conte-nfwr_Umb 2,7,y
+bear,265,4ca84f64f052eebb,NACTI : sanjuan_2010_Unit174_Ivan017,7,y
+bear,266,40468ad91db298ca,NACTI : sanjuan_2010_Unit169_Ivan086,7,y
+bear,267,92e7d89eb60a0356,WSU Lynx : Lynx2016_2017_RawCameraData/Cell95Camera4,7,y
+bear,268,a89c3a49b14713d5,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Won 1,7,y
+bear,269,34b048ace372ee7f,AMMonitor Camera Traps : maine-difw-moose-vol2_Sage2,7,n
+bear,270,7789803184f8604a,AMMonitor Camera Traps : maine-difw-moose-vol2_Troubled1,7,y
+bear,271,420695ef88ab9848,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Weet1a,7,y
+bear,272,2b049fea37862f76,AMMonitor Camera Traps : nh-fish-game-vol1_CLTC 2,7,y
+bear,273,a24cf99e9231dfdf,NACTI : sanjuan_2015_Unit104_Ivan100,7,y
+bear,274,75dd562c109a0845,NACTI : sanjuan_2010_Unit169_Ivan086,7,y
+bear,275,7dd37827274cf487,Idaho Camera Traps : 122,7,y
+bear,276,b84bad2d8a224161,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS14,7,y
+bear,277,4c71d8093738130d,NACTI : sanjuan_2016_Unit173_Ivan031,7,y
+bear,278,a30ea8d874f3d647,AMMonitor Camera Traps : silvio-conte-nfwr_Umb 2,7,y
+bear,279,99198d572d11bd9e,AMMonitor Camera Traps : nh-fish-game-vol1_CLTC 2,7,y
+bear,280,2f3b2a63b7237330,NACTI : lebec_CA-08,7,y
+bear,281,77f1126f9a528b69,NACTI : lebec_CA-44,7,y
+bear,282,71409da0b8275e04,WSU Lynx : Lynx2016_2017_RawCameraData/Cell227Camera2,7,y
+bear,283,8c56bf04bddbd9fe,NACTI : sanjuan_2016_Unit058_Ivan074,7,y
+bear,284,d87d82da3d5a2155,AMMonitor Camera Traps : massachusetts-wildlife_MA0415,7,y
+bear,285,31fb8d2f97726b4b,NACTI : sanjuan_2010_Unit174_Ivan017,7,y
+bear,286,eb03b1ea327c950f,AMMonitor Camera Traps : maine-difw-moose-vol2_Sage2,7,y
+bear,287,9fbf604a6d34559e,NACTI : lebec_CA-19,7,y
+bear,288,9c0b6d295927b949,AMMonitor Camera Traps : usda-green-mountain-nf-vol1_GMS17,8,y
+bear,289,d3070eec1ff160b0,NACTI : sanjuan_2010_Unit154_Ivan094,8,y
+bear,290,c65951907c55b00e,NACTI : lebec_CA-34,8,y
+bear,291,d1dae4d693743cce,NACTI : lebec_CA-17,8,y
+bear,292,0468cb06331fe6f6,NACTI : lebec_CA-18,8,y
+bear,293,c993be4d06eb9631,WSU Lynx : Lynx2016_2017_RawCameraData/Cell2Camera4K,8,y
+bear,294,ad14bee381f213c0,NACTI : lebec_CA-11,8,y
+bear,295,3f5f67fac956fab6,Idaho Camera Traps : 151,8,y
+bear,296,5885c856483bec5c,AMMonitor Camera Traps : nh-fish-game-vol1_Suc 1,8,y
+bear,297,fdb4aec253b643ce,AMMonitor Camera Traps : maine-difw-moose-vol2_COFFEELOSN,8,y
+bear,298,55fa0b4d18d7d58b,AMMonitor Camera Traps : usda-white-mountain-nf-vol1_Won 1,8,y
+bear,299,0f2b1f4fc535314d,NACTI : sanjuan_2016_Unit130_Ivan015,8,y
