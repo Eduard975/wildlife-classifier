@@ -1,0 +1,16 @@
+.venv/
+.venv-export/
+__pycache__/
+*.pyc
+data/*
+!data/review/
+data/review/*
+!data/review/verify.csv
+runs/
+models/
+logs/
+.kiro/
+.pytest_cache/
+*.log
+.DS_Store
+build/private/
