@@ -1,0 +1,53 @@
+# Single source of truth for paths and hyperparameters.
+seed: 1337
+
+paths:
+  lila_labels_zip: data/lila/lila_image_urls_and_labels.csv.zip
+  md_results_dir: data/lila/md
+  dataset_meta_csv: data/lila/lila_camera_trap_datasets.csv
+  crops_dir: data/crops
+  manifest: data/manifests/crops.parquet
+
+data:
+  # target species groups (reuse research/lila_count_dangerous.py grouping)
+  target_species: [bear, wolf, lynx, wild boar]
+  hard_negatives: [coyote, dog]
+  include_other_animal_sample: 20000
+  md_conf_floor: 0.2           # drop frames with no detection above this
+  crop_pad_frac: 0.15
+  crop_sizes: [224, 128]
+  split_by: location_id        # whole-location holdout; never random
+  split_fractions: {train: 0.70, val: 0.15, test: 0.15}
+  verified_test_target: {wolf: 300, bear: 300}
+
+models:
+  detector: {arch: yolo11n, classes: [animal, person, vehicle], imgsz: 640}
+  classifier:
+    archs: [mobilenetv3_small, efficientnet_lite0]
+    classes: [bear, wolf, lynx, wild_boar, other]
+    input: 224
+
+quant:
+  scheme: per_tensor            # VERIFY on NPU in Phase 4; do not assume
+  calibration_crops: 512
+
+fl:
+  framework: flower
+  federate: classifier_head     # head only, or last_block
+  local_optimizer: {lr: 0.01, momentum: 0.9}
+  rounds: 100
+  clients_per_round: 10
+  aggregation: fedavg_sample_weighted
+  pseudo_label_noise: 0.1       # models on-device ranger+voting label noise
+
+controller:
+  bit_widths: [2, 4, 8, 16, 32]
+  error_feedback: true
+  inputs: [cpu_load, temp_c, free_mem_mb, uplink_mbps, battery_soc]
+  outputs: [bit_width, local_steps, trainable_layers, participate]
+  baselines: [fedavg_fp32, fixed_8bit, resource_aware]
+
+edge:
+  vx_delegate: /usr/lib/libvx_delegate.so
+  cache_graph: true
+  thermal_glob: /sys/class/thermal/thermal_zone*/temp
