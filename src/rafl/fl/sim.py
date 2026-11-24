@@ -12,14 +12,16 @@ against a real Flower server in Phase 8. The simulation itself runs in-process
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Callable
+from typing import TYPE_CHECKING, Callable
 
 import numpy as np
-import pandas as pd
 from flwr.client import NumPyClient
 from flwr.server.strategy.aggregate import aggregate
 
 from rafl.fl.quant import ErrorFeedback
+
+if TYPE_CHECKING:
+    import pandas as pd
 
 
 # ---------- model: softmax regression head (W, b) ----------
@@ -132,7 +134,7 @@ class SimConfig:
     extra: dict = field(default_factory=dict)
 
 
-def build_clients(x, meta: pd.DataFrame, classes, cfg: SimConfig):
+def build_clients(x, meta: pd.DataFrame, classes, cfg: SimConfig, exclude=()):
     """One client per train-split location with enough crops. Label noise models
     on-device labels coming from ranger confirmations + burst-vote pseudo-labels."""
     rng = np.random.default_rng(cfg.seed)
@@ -141,7 +143,7 @@ def build_clients(x, meta: pd.DataFrame, classes, cfg: SimConfig):
     tr = meta[meta.split == "train"]
     clients = {}
     for j, (loc, g) in enumerate(sorted(tr.groupby("location_id"), key=lambda t: t[0])):
-        if len(g) < cfg.min_client_samples:
+        if len(g) < cfg.min_client_samples or loc in exclude:
             continue
         y = g.label.map(idx).to_numpy()
         flip = rng.random(len(y)) < cfg.label_noise

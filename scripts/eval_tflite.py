@@ -43,6 +43,8 @@ def run(path: Path, imgs: np.ndarray) -> np.ndarray:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--arch", required=True)
+    ap.add_argument("--dir", default="runs/export")
+    ap.add_argument("--variants", default="fp32,int8_per_channel,int8_per_tensor")
     args = ap.parse_args()
     cfg = yaml.safe_load(open(ROOT / "configs/default.yaml"))
     classes = cfg["models"]["classifier"]["classes"]
@@ -51,9 +53,11 @@ def main():
     y = t.label.map({c: i for i, c in enumerate(classes)}).to_numpy()
     imgs = np.stack([np.asarray(Image.open(ROOT / p).convert("RGB"), np.float32) / 255.0 for p in t.crop_path])
 
-    d = ROOT / "runs/export" / args.arch
-    res, ref = {}, None
-    for name in ("fp32", "int8_per_channel", "int8_per_tensor"):
+    d = ROOT / args.dir / args.arch
+    out_json = d / "tflite_eval.json"
+    res = json.load(open(out_json)) if out_json.exists() else {}
+    ref = None
+    for name in args.variants.split(","):
         logits = run(d / f"{args.arch}_{name}.tflite", imgs)
         pred = logits.argmax(1)
         ref = pred if ref is None else ref
@@ -63,7 +67,7 @@ def main():
                      "agree_with_fp32": float((pred == ref).mean())}
         print(name, json.dumps({k: (round(v, 4) if isinstance(v, float) else {a: round(b, 3) for a, b in v.items()})
                                 for k, v in res[name].items()}), flush=True)
-    json.dump(res, open(d / "tflite_eval.json", "w"), indent=2)
+    json.dump(res, open(out_json, "w"), indent=2)
 
 
 if __name__ == "__main__":

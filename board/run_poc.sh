@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Copy the staged bursts + runtime to the board, run them on CPU and NPU, fetch results.
-#   board/run_poc.sh [host]        (default 192.168.1.15)
+#   board/run_poc.sh [host]        (default $BOARD_HOST, else 192.168.1.12)
 # BOARD_IF=en0 forces traffic out of the LAN interface when a VPN captures 192.168.1.x.
 set -euo pipefail
-HOST=${1:-192.168.1.15}
+HOST=${1:-${BOARD_HOST:-192.168.1.12}}
 IF=${BOARD_IF:-en0}
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
 SSH=(ssh -o BatchMode=yes -o ConnectTimeout=8 -o "ProxyCommand=nc -b $IF %h %p" "root@$HOST")

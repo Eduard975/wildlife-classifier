@@ -79,15 +79,17 @@ def detect(interp, path, size, names, thr):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--run", required=True)
+    ap.add_argument("--root", default="runs/detector")
+    ap.add_argument("--variants", default="fp32,int8_per_channel,int8_per_tensor")
     args = ap.parse_args()
-    d = ROOT / "runs/detector" / args.run
+    d = ROOT / args.root / args.run
     size = int(args.run.rsplit("_", 1)[1])
     names = (d / "names.txt").read_text().split("\n")
     frames = pd.read_parquet(ROOT / "data/manifests/frames.parquet").query("role == 'eval'")
     ref = pd.read_parquet(ROOT / "data/manifests/frame_boxes.parquet")
     ref_by = {fp: g[["x", "y", "w", "h"]].to_numpy() for fp, g in ref.groupby("frame_path")}
-    result = {}
-    for variant in ("fp32", "int8_per_channel", "int8_per_tensor"):
+    result = json.loads((d / "eval.json").read_text()) if (d / "eval.json").exists() else {}
+    for variant in args.variants.split(","):
         interp = tf.lite.Interpreter(str(d / f"{variant}.tflite"), num_threads=4)
         interp.allocate_tensors()
         rows, lat = [], []
