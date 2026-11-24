@@ -24,8 +24,10 @@ STD = np.array([0.229, 0.224, 0.225], np.float32)
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--arch", required=True)
+    ap.add_argument("--dir", default="runs/export")
+    ap.add_argument("--int16", action="store_true", help="only build the int16-activation/int8-weight (per-channel) variant")
     args = ap.parse_args()
-    d = ROOT / "runs/export" / args.arch
+    d = ROOT / args.dir / args.arch
     sm = d / "saved_model"
     if not (sm / "saved_model.pb").exists():
         subprocess.run([str(Path(sys.executable).parent / "onnx2tf"), "-i", str(d / "model.onnx"),
@@ -36,6 +38,15 @@ def main():
         for i in range(len(calib)):
             yield [calib[i:i + 1].astype(np.float32)]
 
+    if args.int16:
+        conv = tf.lite.TFLiteConverter.from_saved_model(str(sm))
+        conv.optimizations = [tf.lite.Optimize.DEFAULT]
+        conv.representative_dataset = rep
+        conv.target_spec.supported_ops = [tf.lite.OpsSet.EXPERIMENTAL_TFLITE_BUILTINS_ACTIVATIONS_INT16_WEIGHTS_INT8]
+        out = d / f"{args.arch}_int16x8.tflite"
+        out.write_bytes(conv.convert())
+        print(out.name, out.stat().st_size // 1024, "KB")
+        return
     for scheme in ("per_channel", "per_tensor"):
         conv = tf.lite.TFLiteConverter.from_saved_model(str(sm))
         conv.optimizations = [tf.lite.Optimize.DEFAULT]

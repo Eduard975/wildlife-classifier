@@ -32,19 +32,31 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--run", required=True)
     ap.add_argument("--calib", type=int, default=200)
+    ap.add_argument("--root", default="runs/detector")
+    ap.add_argument("--calib-dir", default="data/frames/calib")
+    ap.add_argument("--int16", action="store_true", help="only build the int16-activation/int8-weight (per-channel) variant")
     args = ap.parse_args()
-    d = ROOT / "runs/detector" / args.run
+    d = ROOT / args.root / args.run
     size = int(args.run.rsplit("_", 1)[1])
     sm = d / "saved_model"
     if not (sm / "saved_model.pb").exists():
         subprocess.run([str(Path(sys.executable).parent / "onnx2tf"), "-i", str(d / "model.onnx"),
                         "-o", str(sm), "-osd", "-n"], check=True, cwd=d)
-    paths = sorted((ROOT / "data/frames/calib").glob("*.jpg"))[: args.calib]
+    paths = sorted((ROOT / args.calib_dir).glob("*.jpg"))[: args.calib]
 
     def rep():
         for p in paths:
             yield [letterbox(Image.open(p).convert("RGB"), size)[0][None]]
 
+    if args.int16:
+        conv = tf.lite.TFLiteConverter.from_saved_model(str(sm))
+        conv.optimizations = [tf.lite.Optimize.DEFAULT]
+        conv.representative_dataset = rep
+        conv.target_spec.supported_ops = [tf.lite.OpsSet.EXPERIMENTAL_TFLITE_BUILTINS_ACTIVATIONS_INT16_WEIGHTS_INT8]
+        out = d / "int16x8.tflite"
+        out.write_bytes(conv.convert())
+        print(out, out.stat().st_size // 1024, "KB")
+        return
     (d / "fp32.tflite").write_bytes(tf.lite.TFLiteConverter.from_saved_model(str(sm)).convert())
     for scheme in ("per_channel", "per_tensor"):
         conv = tf.lite.TFLiteConverter.from_saved_model(str(sm))

@@ -103,7 +103,7 @@ def main():
     size = cfg["models"]["classifier"]["input"]
     torch.manual_seed(cfg["seed"])
     np.random.seed(cfg["seed"])
-    device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
 
     df = pd.read_parquet(ROOT / cfg["paths"]["manifest"])
     df = df[df.ok & df.label.isin(classes)]
