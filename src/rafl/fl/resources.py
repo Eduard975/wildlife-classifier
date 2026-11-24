@@ -115,10 +115,12 @@ class ResourceEnv:
         return self.c[cid].soc > 0.0
 
     # ---- account for an FL round the client actually ran ----
-    def settle(self, cid: str, n_samples: int, local_epochs: int, nbytes: int) -> Settle:
+    def settle(self, cid: str, n_samples: int, local_epochs: int, nbytes: int,
+               s_per_sample_epoch: float | None = None) -> Settle:
         c, r = self.cfg, self.c[cid]
         slow = 2.0 if r.temp_c >= c.throttle_c else 1.0
-        train_s = n_samples * local_epochs * c.train_s_per_sample_epoch * slow
+        sps = c.train_s_per_sample_epoch if s_per_sample_epoch is None else s_per_sample_epoch
+        train_s = n_samples * local_epochs * sps * slow
         bw = self._bw[cid]
         upload_s = nbytes * 8 / (bw * 1000)
         r.last_bw_kbps = bw  # measured during this upload, seen by the policy next time

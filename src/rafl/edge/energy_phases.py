@@ -31,7 +31,9 @@ from node_io import DirectoryBurstSource  # noqa: E402
 from telemetry import Recorder  # noqa: E402
 
 PHASES = ["idle", "npu_classifier", "npu_detector", "npu_pipeline", "cpu_pipeline",
-          "fl_features", "fl_train", "wifi_tx"]
+          "fl_features", "fl_train", "wifi_tx",
+          # added for the board-side FL and precision switching (report sections 9.3 and 9.4)
+          "npu_detector_pc", "cpu_detector_fp32", "fl_head_train", "fl_block_train", "requant_block", "npu_compile"]
 
 
 def say(msg: str) -> None:
@@ -73,6 +75,9 @@ def main():
     ap.add_argument("--phase-s", type=float, default=90.0)
     ap.add_argument("--gap-s", type=float, default=15.0)
     ap.add_argument("--hz", type=float, default=2.0)
+    ap.add_argument("--detector-pc", default="~/rafl/levels/models/det_i8pc.tflite")
+    ap.add_argument("--detector-fp32", default="~/rafl/levels/models/det_fp32.tflite")
+    ap.add_argument("--block-dir", default="~/rafl/flblock", help="board FL stage of rafl.fl.board_block_client")
     args = ap.parse_args()
 
     out = Path(args.out).expanduser()
@@ -147,6 +152,59 @@ def main():
         head = init_head(x.shape[1], k, rng)
         ops["fl_train"] = lambda: sgd(head, x, y, k, 1, 0.01, 0.9, 32, rng)
         units["fl_train"] = f"round (1 epoch, {len(y)} samples)"
+    if {"npu_detector_pc", "cpu_detector_fp32"} & set(phases):
+        im0 = frames[0].load()
+        for name, path, dg in (("npu_detector_pc", args.detector_pc, args.delegate), ("cpu_detector_fp32", args.detector_fp32, None)):
+            if name not in phases:
+                continue
+            it = make_interpreter(str(Path(path).expanduser()), dg, cache / name if dg else None)
+            it.allocate_tensors()
+            d = Detector(it, 416, src.animal_index, 0.25)
+            xd, _ = d.preprocess(im0)
+            for _ in range(3):
+                d.invoke(xd)
+            ops[name], units[name] = (lambda d=d, xd=xd: d.invoke(xd)), "inference"
+    if {"fl_head_train", "fl_block_train", "requant_block", "npu_compile"} & set(phases):
+        from PIL import Image
+        from rafl.edge import requant
+        from rafl.fl import block, npu_block
+        from run_frames import MEAN, STD
+        bd = Path(args.block_dir).expanduser()
+        tmpl = (bd / "classifier_block.tflite").read_bytes()
+        qm = requant.load_map(bd / "quant_map.json")
+        man = json.load(open(bd / "data/manifest.json"))
+        y = np.array([r["label"] for r in man["crops"]], np.int64)
+        it = make_interpreter(str(bd / "classifier_block.tflite"), args.delegate, cache / "block")
+        it.allocate_tensors()
+        i0 = it.get_input_details()[0]
+        ob = next(o["index"] for o in it.get_output_details() if list(o["shape"][1:]) == [7, 7, 320])
+        s, z = i0["quantization"]
+        xs = []
+        for r in man["crops"]:
+            im = Image.open(bd / "data/crops" / r["file"]).convert("RGB").resize((224, 224), Image.BICUBIC)
+            it.set_tensor(i0["index"], np.clip(np.round(((np.asarray(im, np.float32) / 255.0 - MEAN) / STD) / s + z), -128, 127).astype(np.int8)[None])
+            it.invoke()
+            xs.append(it.get_tensor(ob).reshape(49, 320).copy())
+        xf = npu_block.dequant(np.array(xs), npu_block.block_input_params(tmpl, qm))
+        p = npu_block.read_block(tmpl, qm)
+        rng = np.random.default_rng(0)
+        ops["fl_head_train"] = lambda: block.local_train(p, xf, y, "head", 1, 0.003, 0.9, 32, rng)
+        units["fl_head_train"] = f"round (1 epoch, {len(y)} samples)"
+        ops["fl_block_train"] = lambda: block.local_train(p, xf, y, "block", 1, 0.003, 0.9, 32, rng)
+        units["fl_block_train"] = f"round (1 epoch, {len(y)} samples)"
+        ops["requant_block"], units["requant_block"] = (lambda: npu_block.deployable(p, xf, qm, tmpl)), "re-quantization"
+        model = npu_block.deployable(p, xf, qm, tmpl)
+        mpath = out / "compile_probe.tflite"
+        mpath.write_bytes(model)
+        nc = itertools.count()
+
+        def compile_once():
+            d = out / "compile_cache" / str(next(nc))  # empty cache: full compile; removed at the end of the run
+            c = make_interpreter(str(mpath), args.delegate, d)
+            c.allocate_tensors()
+            c.set_tensor(c.get_input_details()[0]["index"], np.zeros(i0["shape"], np.int8))
+            c.invoke()
+        ops["npu_compile"], units["npu_compile"] = compile_once, "model load + NPU compile"
     if "wifi_tx" in phases:
         buf = os.urandom(64 * 1024)
         stream = sys.stdout.buffer
@@ -198,6 +256,8 @@ def main():
         time.sleep(args.gap_s)
     finally:
         rec.stop()
+        import shutil
+        shutil.rmtree(out / "compile_cache", ignore_errors=True)
         json.dump({"phases": results, "phase_s": args.phase_s, "gap_s": args.gap_s,
                    "detector": args.detector, "classifier": args.classifier}, open(out / "phases.json", "w"), indent=1)
     say(f"\ndone: {out}/phases.json, {out}/telemetry.jsonl")

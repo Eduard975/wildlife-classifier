@@ -1,0 +1,2 @@
+BCU source commit 1e19891f3f62c1e6c3802adb15deba7f54fa1af8 (2026-11-24)
+libftdi 1.5 (sha256 7c7091e9c86196148bd41177b4590dccb1510bfe6cea5bf7407ff194482eb049), built arm64
